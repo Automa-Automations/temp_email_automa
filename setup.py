@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="temp_email_automa",
-    version="0.0.4",
+    version="0.0.5",
     description="A Python Package to Provide Temp Emails for AUTOMATION!",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
