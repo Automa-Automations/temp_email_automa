@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name="temp_email_automa",
-    version="0.0.5",
+    version="0.0.6",
     description="A Python Package to Provide Temp Emails for AUTOMATION!",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/Automa-Automations/temp_email_automa",
-    author="Your Name",
+    author="Simon Ferns",
     author_email="business@simonferns.com",
     license="MIT",
     classifiers=[

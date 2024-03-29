@@ -41,7 +41,6 @@ class TempMail:
         get_random = f"{random.choice(r.json())}"
         self.login, self.domain = get_random.split("@")
 
-    @property
     def get_list_of_active_domains(self):
         """Return active domains for email address"""
         return requests.get(
