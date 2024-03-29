@@ -62,7 +62,7 @@ class TempMail:
         request_response = requests.get(url).json()
         sender = request_response["from"]
         del request_response["from"]
-        del request_response["attachements"]
+        del request_response["attachments"]
         request_response["sender"] = sender
 
         return Email(**request_response)
